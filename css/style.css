@@ -1,0 +1,585 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: "Monserrat", sans-serif;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+#header {
+    background: #2435A1
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+.header-title a {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 450px;
+}
+#hero {
+    background-image: url("../img/Vector.svg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 1800px 950px;
+}
+.hero-title h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.hero-title p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+.hero-school a {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+   margin: 25px 0;
+    position: relative;
+}
+.hero-school .hero-div {
+    color: #FC724D;
+}
+.hero-img img {
+    width: 95%;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1289px;
+}
+.hero-ion {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #FFFFFF;
+    border-radius: 51px;
+    margin-top: 30px;
+    position: relative;
+}
+.hero-school {
+    position: absolute;
+    top: 606px;
+    left: 214px;
+}
+.hero-school .hero-div {
+    position: absolute;
+    top: -21px;
+    left: 232px;
+}
+.hero-line {
+    width: 41.01px;
+    height: 0;
+    border: 2px solid #FC724D;
+    position: absolute;
+    left: 200px;
+    bottom: 8px;
+}
+.school-line {
+    width: 983px;
+    height: 0;
+    border: 5px solid #1100D9;
+    margin: 40px 71px;
+}
+.blocks-people {
+    width: 75px;
+    height: 75px;
+    background: #F7F7F7;
+    box-shadow: 6px 5px 11px rgba(0, 0, 0, 0.25);
+    border-radius: 120px;
+}
+.blocks-people img {
+    padding: 12px 14px;
+}
+.blocks-text h3 {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 10px;
+}
+.blocks-text h2 {
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 0.2px;
+    color: #1100D9;
+}
+.school-blocks {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+.blocks-text {
+    padding-left: 20px;
+}
+.school-nav h1 {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+#school {
+    background: #F5F5F5;
+}
+.school-nav p {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding: 20px 0;
+}
+.school {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.school-img .school-back {
+    width: 625px;
+    height: 438px;
+    left: 242px;
+    top: 957px;
+    background: #FC724D;
+    position: absolute;
+}
+
+.school-img img {
+    position: relative;
+}
+.school-title p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163.4%;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding: 25px 0;
+}
+.school-title button {
+    width: 257px;
+    height: 55px;
+    border: 2px solid #1100D9;
+    border-radius: 16px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 163.4%;
+    letter-spacing: 0.2px;
+    color: #1100D9;
+    margin: 40px 452px;
+}
+#teachers {
+    background: #F5F5F5;
+}
+.teachers-h {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding: 50px 0;
+}
+.teacher-block h1 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding: 8px 0;
+}
+.teacher-block p {
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    color: #000000;
+}
+.teachers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1354px;
+}
+.teacher-title h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding-top: 65px;
+}
+.teacher-title p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding: 20px 0;
+}
+#painting {
+    background: #F5F5F5;
+}
+.painting-h {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding-top: 60px;
+}
+.painting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.painting-center {
+    padding: 20px 20px;
+}
+.paint-img {
+    padding: 10px 0;
+}
+#mail {
+    background: #F5F5F5;
+}
+.mail-h {
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    padding-top: 40px;
+}
+.mail-a4 .mail-icons {
+    color: #252B42;
+    font-size: 18px;
+    padding-top: 20000px ;
+    position: absolute;
+    bottom: -2840px;
+}
+.mail .mail-nom {
+    font-weight: 500;
+    font-size: 16px;
+    color: #252B42;
+    padding-left: 10px;
+}
+.mail .mail-text {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-left: 10px;
+}
+.mail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mail-p {
+   padding-left: 25px;
+}
+.mail-a {
+    padding: 15px 0;
+}
+.mail-a2 {
+    padding: 15px 0;
+}.mail-a3 {
+    padding: 15px 0;
+}.mail-a4 {
+    padding: 15px 0;
+}
+.mail-img img {
+    padding: 40px 0;
+}
+.mail-title {
+    padding-bottom: 175px ;
+}
+.mail-p a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 114.4%;
+    color: #252B42;
+    position: relative;
+}
+.mail-title .mail-icon {
+    color:#252B42;
+}
+#phone {
+    background-image: url("../img/back-foot.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2597px 409px;
+}
+.phone img {
+    padding-bottom: 35px;
+}
+.phone-a .phone-icon {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.phone-a .phone-nom {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+.phone-nav a {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 60px 0;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.phone-soc h1 {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.phone-soc a {
+    color: #FFFFFF;
+    font-size: 20px;
+
+}
+.phone-soc .phone-icon {
+    padding-right: 10px;
+}
+.phone-soc {
+    padding-top: 50px;
+}
+.phone-line {
+    width: 1329px;
+    height: 0;
+    border: 1px solid #FFFFFF;
+}
+.phone-h  h1 {
+    font-weight: 700;
+    font-size: 13px;
+    text-align: left;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    padding: 60px 0;
+}
+.phone-web1 h3 {
+    font-weight: 700;
+    font-size: 13px;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+}
+.phone-web1 h2 {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+
+}
+.phone-h {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone-web {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.phone-web1 {
+    padding-right: 5px;
+}
+.signin-h {
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding: 40px 0;
+}
+.signin-title h1 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 10px;
+}
+.signin-title h3 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding: 10px 0;
+}
+.signin-title h2 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 55px;
+}
+.signin-title h2 span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.signin-title p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.signin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signin-p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding: 30px 0;
+}
+.information-title h1 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 10px;
+}
+.information-title h3 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding: 10px 0;
+}
+.information-title h2 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 55px;
+}
+.information-title h2 span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.information-title p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.information-p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding: 30px 0;
+}
+#signin {
+    background: #F5F5F5;
+    padding-bottom: 50px;
+}
+#information {
+    background: #F5F5F5;
+    padding-bottom: 50px;
+}
+.cristmas-title h1 {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 10px;
+}
+.cristmas-title h3 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding: 10px 0;
+}
+.cristmas-title h2 {
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 55px;
+}
+.cristmas-title h2 span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.cristmas-title p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+.cristmas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cristmas-p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #000000;
+    padding: 30px 0;
+}
+#cristmas {
+    background: #F5F5F5;
+}
